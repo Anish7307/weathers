@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;   
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #4d4d4d;
+    color: white;
+}
+#location{
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 2px;
+    outline: none;
+}
+#btn{
+    height: 30px;
+    width: 70px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(32, 169, 255);  
+    margin-left: 2px;
+    margin-right: 15px; 
+}
+#weather{
+    margin-top: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    background: linear-gradient(135deg , #4d4d4d, hwb(217 35% 0%));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0px 30px 30px rgba(0, 0, 0, 0.327);
+}
+#name{
+    color: rgb(255, 255, 255);
+    margin:10px;
+}
+#region{
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+#country{
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+#temp{
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+#cond{
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+#cloud{
+    color: #fffefe;
+    margin: 15px;
+}
